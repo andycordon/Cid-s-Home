@@ -1,0 +1,73 @@
+/*FEUILLE DE STYLE  QUI SUIS-JE TABLETTE*/
+
+/*Feuille de style pour les tablettes*/
+
+/*largeur de page*/
+body{
+	min-width:800px;
+}
+
+
+.top {
+	display:none;
+}
+
+h1{
+	font-size:4.9em;
+	font-weight:400;
+	margin-top:0.5em;
+}
+/*titre-le jeu*/
+h2{
+	width:40%;
+	padding:26.75px 0;
+	color:#FECC33;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+.moi{
+	width:40%;
+	display: block;
+	margin-top:0.5em
+}
+
+.interet{
+	width:58.5%;
+	float:right;
+	margin-top:-447.5px;
+	
+}
+
+
+/*FOOTER*/
+/*menu-sans puce*/
+ul#footer{    
+	list-style:none;
+	margin:0.5em 0 ;
+
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#footer li{
+    background-color:#FECC33;
+
+}
+/*menu-mettre le menu en bloc*/
+ul#footer li a{
+	color:black;    
+	text-decoration:none;
+	display:block;
+	padding:1em 0em;
+}
+/*menu-survol*/
+ul#footer li a:hover{
+	color:#FECC33;    
+	text-decoration:none;    
+	background-color:white;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}

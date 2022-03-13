@@ -1,0 +1,140 @@
+/*Feuille de style pour les smartphones*/
+/*Qui suis-je*/
+
+/*RESET*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*TOUTE LA PAGE*/
+body {
+	font-family: arial, sans-sherif; 
+	font-size: 62.5%;
+	color:white;
+	background:#666; 
+	background-size: cover;	
+	width:320px;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+/*EN TETE*/
+/*logo*/
+
+.moi{
+	max-width:100%;
+	display: block;
+	margin-top:0.5em
+}
+
+/*TOUT LE CONTENU*/
+
+
+.interet{
+    display:flex;	
+	flex-wrap:wrap;
+}
+
+.interet1, .interet2, .interet3, .interet4{
+	margin-bottom:1em;
+}
+
+/*titre-nom du site web*/
+h1{
+	font-size:5em;
+	font-weight:400;
+	color:#FECC33;
+	margin-top:0.5em;
+}
+/*titre-le jeu*/
+h2{
+	color:#FECC33;
+	font-size:4em;
+	font-weight:400;
+	margin-top:0.5em;
+}
+/*titre-modes de jeu*/
+h3{
+	color:#FECC33;
+	font-size:3em;
+	font-weight:400;
+	border-top:solid 2px white;
+	padding-top:0.5em;
+	margin:0 0.2em;
+}
+
+/*contenu-polices textes*/
+p{
+	font-size:1.5em;
+	font-weight:400;
+	margin:1em 0.5em;
+}
+
+.crea{
+	margin:5em;
+}
+
+.pics{
+	width:100%;
+    margin:auto;
+	height:20em;
+    display:flex;
+}
+
+.crea:hover{
+	background:#ccc;
+}
+
+
+/*pour enlevé la visite des liens*/
+a, a:hover, a:visited, a:active
+{
+	color:white;
+	text-decoration:none;
+}
+
+
+/*FOOTER*/
+/*menu-sans puce*/
+ul#footer{    
+	list-style:none;
+	margin:-1em 0 2em 0;
+
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#footer li{
+    background-color:#FECC33;
+
+}
+/*menu-mettre le menu en bloc*/
+ul#footer li a{
+	color:black;    
+	text-decoration:none;
+	display:block;
+	padding:1em 0em;
+}
+/*menu-survol*/
+ul#footer li a:hover{
+	color:#FECC33;    
+	text-decoration:none;    
+	background-color:white;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}
+
+
+
+/*BOUTON POUR REMONTER LA PAGE*/
+.top {
+	position:fixed;
+	bottom:28px;
+	right:65px;
+	opacity: 0.6;
+}
+
+
+

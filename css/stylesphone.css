@@ -1,0 +1,288 @@
+/*Feuille de style pour les smartphones*/
+/*mode decouverte ligne 220*/
+/*mode initié ligne 250*/
+/*mode confirmé ligne 260*/
+/*mode expert ligne 271*/
+
+/*RESET*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*TOUTE LA PAGE*/
+body {
+	font-family: arial, sans-sherif; 
+	font-size: 62.5%;
+	color:black;
+	background: url(../img/background.jpg) no-repeat center fixed; 
+	background-size: cover;	
+	width:320px;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+
+/*css pour la video intro*/
+.video{
+	width:100%;
+	height:180px;
+}
+
+/*pour enlevé la visite des liens*/
+a, a:hover, a:visited, a:active
+{
+	color:#0066cc;
+	text-decoration:none;
+}
+
+
+/*EN TETE*/
+/*logo*/
+.logo{
+	max-width:100%;
+	display: block;
+	margin-top:0.5em
+}
+/*menu-sans puce*/
+ul#menu{    
+	list-style:none;
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#menu li{
+    background-color:none;
+}
+/*menu-mettre le menu en bloc*/
+ul#menu li a{
+	background:none;
+	color:#0066cc;    
+	text-decoration:none;
+	display:block;
+	border-bottom:white solid 0.1em;
+	padding:1em 0.5em;
+}
+/*menu-survol*/
+ul#menu li a:hover{
+	color:white;    
+	text-decoration:none;    
+	background-color:#0066cc;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}
+
+
+/*TOUT LE CONTENU*/
+.contenues{
+	margin:0.5em;
+}
+
+.mode{
+    display:flex;	
+	flex-wrap:wrap;
+}
+
+/*survol des modes*/
+.mode1:hover{
+		background:white;
+}
+.mode2:hover{
+		background:white;
+}
+.mode3:hover{
+		background:white;
+}
+.mode4:hover{
+		background:white;
+}
+
+
+/*titre-nom du site web*/
+h1{
+	font-size:5em;
+	font-weight:400;
+	color:#0066cc;
+	margin-top:0.5em;
+}
+/*titre-le jeu*/
+h2{
+	color:#0066cc;
+	font-size:4em;
+	font-weight:400;
+	margin-top:0.5em;
+}
+/*titre-modes de jeu*/
+h3{
+	color:#0066cc;
+	font-size:3em;
+	font-weight:400;
+	border-top:solid 2px white;
+	padding-top:0.5em;
+	margin:0 0.2em;
+}
+
+h4{
+	color:#0066cc;
+	font-size:2.5em;
+	font-weight:400;
+	padding-top:0.5em;
+	margin:0 0.1em;
+}
+
+/*contenu-intro-marge sur les cote*/
+.intro{
+	margin:0 0.5em
+}
+
+/*contenu-age nb joueur durée*/
+.categorie{
+	font-style:italic;
+	margin:0.5em;
+}
+/*contenu-mode de jeu-justify*/
+.mode{
+		text-align:justify;
+
+}
+/*contenu-polices textes*/
+p{
+	font-size:1.5em;
+	font-weight:400;
+	margin:1em 0.5em;
+	color:black;
+}
+/*contenu-images*/
+.image {
+	max-width: 100%;
+}
+
+/*CREATION*/
+/*creation-miniatures*/
+.mini{
+	width:10em;
+	height:10em;
+}
+
+.crea{
+	width:10em;
+}
+/*survol des creation*/
+.crea:hover{
+	background:white;
+}
+
+
+/*creation-le bloc entier*/
+.creations{
+	text-align:center;
+	margin:3em;
+    display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top:0.5em;
+}
+
+
+/*FOOTER*/
+/*menu-sans puce*/
+ul#footer{    
+	list-style:none;
+	margin:-1em 0 2em 0;
+
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#footer li{
+    background-color:#0066cc;
+
+}
+/*menu-mettre le menu en bloc*/
+ul#footer li a{
+	color:white;    
+	text-decoration:none;
+	display:block;
+	padding:1em 0em;
+}
+/*menu-survol*/
+ul#footer li a:hover{
+	color:#0066cc;    
+	text-decoration:none;    
+	background-color:white;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}
+
+
+
+/*BOUTON POUR REMONTER LA PAGE*/
+.top {
+	position:fixed;
+	bottom:28px;
+	right:65px;
+	opacity: 0.6;
+}
+
+
+/*FEUILLE DE STYLE POUR MODE DECOUVERTE*/
+#decouverte{
+	width:100%;
+	margin:0em 2em;
+}
+
+.imgdecouverte, .plateau{
+	width:100%;
+}
+
+.marqueur{
+	width:15%;
+}
+.pion,.bonbon{
+	width:10.65%;
+}
+.geler{
+	width:24.05%;
+}
+.hall{
+	width:20%;
+	margin-left:11em;
+}
+	
+strong{
+	color:#0066cc;
+}
+
+
+
+/*FEUILLE DE STYLE POUR MODE INITIE*/
+.courir{
+	width:24.22%;
+}
+
+.courirg p{
+	margin-left:0em;
+}
+
+/*FEUILLE DE STYLE POUR CONFIME*/
+.role{
+	width:24.22%;
+}
+
+.role1 ,.rolerv{
+	width:70%;
+	margin-left:4em;
+}
+
+/*FEUILLE DE STYLE EXPERT*/
+.rolen{
+	margin:0 0.75em;
+}
+.rolenew{
+	width:32.6%;
+}
+.role2{
+	width:70%;
+}

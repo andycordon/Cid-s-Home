@@ -1,0 +1,15 @@
+/*Feuille de style pour les tablettes*/
+
+/*largeur de page*/
+Body{
+	min-width:1280px;
+}
+
+.moi{
+	width:30%;
+}
+
+
+.interet1, .interet2, .interet3, .interet4, .crea{
+	width:23.25%;
+}

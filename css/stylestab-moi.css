@@ -1,0 +1,31 @@
+/*Feuille de style pour les tablettes*/
+
+/*largeur de page*/
+Body{
+	min-width:800px;
+}
+
+.moi{
+	width:50%;
+	margin:auto;
+}
+
+.interet, #crea{
+	margin:3em;
+    display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin-top:0.5em;
+}
+
+.interet1, .interet2, .interet3, .interet4, .crea{
+	width:46%;
+	margin:0 1em;
+	text-align:justify;
+	border-top:none;
+}
+
+/*BOUTON REMONTER ENLEVER*/
+.top {
+	display:none;
+}

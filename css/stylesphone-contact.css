@@ -1,0 +1,101 @@
+/*FEUILLE DE STYLE TELEPHONE CONTACTE*/
+
+/*RESET*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*TOUTE LA PAGE*/
+body {
+	font-family: arial, sans-sherif; 
+	font-size: 62.5%;
+	color:white;
+	background:#666; 
+	background-size: cover;	
+	width:320px;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+
+.top {
+	position:fixed;
+	bottom:28px;
+	right:65px;
+	opacity: 0.6;
+}
+
+h1{
+	font-size:4.9em;
+	font-weight:400;
+	margin-top:0.5em;
+	color:#FECC33;
+}
+/*titre-le jeu*/
+h2{
+	font-size:4em;
+	font-weight:400;
+	margin-top:0.5em;
+	color:#FECC33;
+
+}
+/*titre-modes de jeu*/
+h3{
+	color:black;
+	font-size:3em;
+	font-weight:400;
+	padding-top:0.5em;
+}
+
+p{
+	font-size:2em;
+	color:black;
+}
+
+.moi{
+	width:100%;
+}
+
+.interet1, .interet2, .interet3, .interet4{
+	background:#ccc;
+	margin-top:1em;
+	padding:2em;
+	height:5.95em;
+}
+
+.image{
+	width:20px;
+}
+
+
+/*FOOTER*/
+/*menu-sans puce*/
+ul#footer{    
+	list-style:none;
+	margin:0.5em 0 ;
+
+}
+/*menu-alignement horizontal et suppresion de style*/ 
+ul#footer li{
+    background-color:#FECC33;
+
+}
+/*menu-mettre le menu en bloc*/
+ul#footer li a{
+	color:black;    
+	text-decoration:none;
+	display:block;
+	padding:1em 0em;
+}
+/*menu-survol*/
+ul#footer li a:hover{
+	color:#FECC33;    
+	text-decoration:none;    
+	background-color:white;
+}
+/*menu-police*/
+li{
+	font-size:2em;
+	font-weight:400;
+}

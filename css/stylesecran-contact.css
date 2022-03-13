@@ -1,0 +1,28 @@
+/*FEUILLE DE STYLE POUR ECRAN MOI*/
+
+body{
+	min-width:1280px;
+}
+
+h2{
+	background:#FECC33;
+	display: block;
+	position:relative;
+	padding:26.75px 0;
+	color:black;
+	width:717px;
+	position:absolute;
+	margin:-546.5px 0 0 563.5px;
+	}
+
+
+.moi{
+	width:43%;
+	display: block;
+}
+
+.interet{
+	width:56%;
+	float:right;
+	margin-top:-438.5px;	
+}
